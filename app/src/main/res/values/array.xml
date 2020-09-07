@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Pregunta1_Power">
+        <item>A)nest wlan show profiles="name" key=clear</item>
+        <item>B)netstart -l -i hostname key="number"</item>
+        <item>C)DISKPART -s</item>
+    </string-array>
+    <string-array name="Pregunta2_Power">
+        <item>A)Powershell</item>
+        <item>B)Net porfile</item>
+        <item>C)DISKPART</item>
+    </string-array>>
+    <string-array name="Pregunta3_Power">
+        <item>A)net user</item>
+        <item>B)net admin</item>
+        <item>C)user -t</item>
+    </string-array>
+    <string-array name="Pregunta4_Power">
+        <item>A).php</item>
+        <item>B).c</item>
+        <item>C).bat</item>
+    </string-array>
+    <string-array name="Pregunta5_Power">
+        <item>A)CD C:/</item>
+        <item>B)DISKPART</item>
+        <item>C)Net COMPUTER</item>
+    </string-array>
+    <string-array name="Pregunta6_Power">
+        <item>A)DISK SELECTION</item>
+        <item>B)LIST DISK</item>
+        <item>C)DISK VDISK</item>
+    </string-array>
+    <string-array name="Pregunta7_Power">
+        <item>A)mysql -u -p</item>
+        <item>B)CD:/xammp/hdoct/ \index.html -t</item>
+        <item>C)FTP</item>
+    </string-array>
+    <string-array name="Pregunta8_Power">
+        <item>A)BYE</item>
+        <item>B)open (direccion IP) </item>
+        <item>C)bell</item>
+    </string-array>
+    <string-array name="Pregunta9_Power">
+        <item>A)net user</item>
+        <item>B)net services</item>
+        <item>C)net start</item>
+    </string-array>
+    <string-array name="Pregunta10_Power">
+        <item>A)LS</item>
+        <item>B)CD</item>
+        <item>C)DIR</item>
+    </string-array>
+
+
+    <string-array name="Pregunta1_List">
+        <item>A).exe</item>
+        <item>B).xml</item>
+        <item>C).bat</item>>
+    </string-array>
+    <string-array name="Pregunta2_List">
+        <item>A)boolean</item>
+        <item>B)char</item>
+        <item>C)string</item>
+    </string-array>
+    <string-array name="Pregunta3_List">
+        <item>A)ArrayAdapter</item>
+        <item>B)getResources.getStringAraay(R.array."name");</item>
+        <item>C)String []"name"={};</item>>
+    </string-array>
+    <string-array name="Pregunta4_List">
+        <item>A).position</item>
+        <item>B).getItemAtPosition(position)</item>
+        <item>C).position.</item>
+    </string-array>
+    <string-array name="Pregunta5_List">
+        <item>A).add</item>
+        <item>B).setTitle</item>
+        <item>C).setMessage;</item>>
+    </string-array>
+    <string-array name="Pregunta6_List">
+        <item>A)activity_list_item</item>
+        <item>B)simple_list_item_1,</item>
+        <item>C)list_content</item>
+    </string-array>
+    <string-array name="Pregunta7_List">
+        <item>A)android:scrollbarStyle</item>
+        <item>B)android:divider</item>
+        <item>C)android:dividerHeight</item>>
+    </string-array>
+    <string-array name="Pregunta8_List">
+        <item>A)android:scrollbarStyle</item>
+        <item>B)android:divider</item>
+        <item>C)android:dividerHeight</item>>
+    </string-array>
+    <string-array name="Pregunta9_List">
+        <item>A)string-array</item>
+        <item>B)item</item>
+        <item>C)resources</item>>
+    </string-array>
+    <string-array name="Pregunta10_List">
+        <item>A)R.id."name"</item>
+        <item>B)R.array."name"</item>
+        <item>C)R.drawble."name"</item>>
+    </string-array>
+
+
+
+    <string-array name="Pregunta1_Ubicacion">
+        <item>A)ACCESS_FINE_LOCATION</item>
+        <item>B)INTERNET</item>
+        <item>C)LOCATION_GPS</item>
+    </string-array>
+    <string-array name="Pregunta2_Ubicacion">
+        <item>A)</item>
+        <item>B)char</item>
+        <item>C)string</item>
+    </string-array>
+    <string-array name="Pregunta3_Ubicacion">
+        <item>A)ArrayAdapter</item>
+        <item>B)getResources.getStringAraay(R.array."name");</item>
+        <item>C)String []"name"={};</item>>
+    </string-array>
+    <string-array name="Pregunta4_Ubicacion">
+        <item>A).position</item>
+        <item>B).getItemAtPosition(position)</item>
+        <item>C).position.</item>
+    </string-array>
+    <string-array name="Pregunta5_Ubicacion">
+        <item>A).add</item>
+        <item>B).setTitle</item>
+        <item>C).setMessage;</item>>
+    </string-array>
+    <string-array name="Pregunta6_Ubicacion">
+        <item>A)activity_list_item</item>
+        <item>B)simple_list_item_1,</item>
+        <item>C)list_content</item>
+    </string-array>
+    <string-array name="Pregunta7_Ubicacion">
+        <item>A)android:scrollbarStyle</item>
+        <item>B)android:divider</item>
+        <item>C)android:dividerHeight</item>
+    </string-array>
+    <string-array name="Pregunta8_Ubicacion">
+        <item>A)android:scrollbarStyle</item>
+        <item>B)android:divider</item>
+        <item>C)android:dividerHeight</item>
+    </string-array>
+    <string-array name="Pregunta9_Ubicacion">
+        <item>A)string-array</item>
+        <item>B)item</item>
+        <item>C)resources</item>
+    </string-array>
+    <string-array name="Pregunta10_Ubicacion">
+        <item>A)R.id."name"</item>
+        <item>B)R.array."name"</item>
+        <item>C)R.drawble."name"</item>
+    </string-array>
+
+    <string-array name="Pregunta1_Basico">
+        <item>B).xml</item>
+        <item>C).bat</item>>
+    </string-array>
+    <string-array name="Pregunta2_Basico">
+        <item>A)boolean</item>
+        <item>B)char</item>
+        <item>C)string</item>
+    </string-array>
+    <string-array name="Pregunta3_Basico">
+        <item>A)ArrayAdapter</item>
+        <item>B)getResources.getStringAraay(R.array."name");</item>
+        <item>C)String []"name"={};</item>>
+    </string-array>
+    <string-array name="Pregunta4_Basico">
+        <item>A).position</item>
+        <item>B).getItemAtPosition(position)</item>
+        <item>C).position.</item>
+    </string-array>
+    <string-array name="Pregunta5_Basico">
+        <item>A).add</item>
+        <item>B).setTitle</item>
+        <item>C).setMessage;</item>>
+    </string-array>
+    <string-array name="Pregunta6_Basico">
+        <item>A)activity_list_item</item>
+        <item>B)simple_list_item_1,</item>
+        <item>C)list_content</item>
+    </string-array>
+    <string-array name="Pregunta7_Basico">
+        <item>A)android:scrollbarStyle</item>
+        <item>B)android:divider</item>
+        <item>C)android:dividerHeight</item>>
+    </string-array>
+    <string-array name="Pregunta8_Basico">
+        <item>A)android:scrollbarStyle</item>
+        <item>B)android:divider</item>
+        <item>C)android:dividerHeight</item>>
+    </string-array>
+    <string-array name="Pregunta9_Basico">
+        <item>A)string-array</item>
+        <item>B)item</item>
+        <item>C)resources</item>>
+    </string-array>
+    <string-array name="Pregunta10_Basico">
+        <item>A)R.id."name"</item>
+        <item>B)R.array."name"</item>
+        <item>C)R.drawble."name"</item>>
+    </string-array>
+
+
+    <string-array name="modo">
+        <item>Activar retroalimentacion</item>
+        <item>Desactivar retroalimentacion</item>
+    </string-array>
+
+
+</resources>

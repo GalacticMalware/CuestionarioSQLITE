@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="40px"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Bienvenido al cuestionario"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif" />
+
+
+    <EditText
+        android:drawableLeft="@drawable/avatar1"
+        android:id="@+id/usuario"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ingrese el usuario"
+        android:background="@drawable/edictext"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:drawableLeft="@drawable/bloquear"
+        android:id="@+id/contrasena"
+        android:background="@drawable/edictext"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:hint="Ingrese la contraseña"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/menu"
+      android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="infresar"
+        android:background="@drawable/boton"/>
+
+
+</LinearLayout>

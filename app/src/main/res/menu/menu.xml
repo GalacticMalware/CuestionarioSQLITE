@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.danie.a767_e35manejodemenu.MainActivity">
+    <item
+        android:icon="@drawable/informacion"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/acercade"
+        />
+    <item android:id="@+id/score"
+        android:orderInCategory="100"
+        android:title="@string/scort"
+        app:showAsAction="never"/>
+    <item android:title="@string/conf"
+        android:id="@+id/conf"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="@string/salir"
+        android:id="@+id/salir"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+</menu>

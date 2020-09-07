@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quiz3.1</string>
+    <string name="acercade">Acerca de</string>
+    <string name="scort">Score</string>
+    <string name="conf">Configuraciones</string>
+    <string name="puntuacion">h</string>
+    <string name="salir">Salir</string>
+</resources>

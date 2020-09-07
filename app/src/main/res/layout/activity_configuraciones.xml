@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    tools:context=".Configuraciones">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Configuraciones"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Conbiar de color"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/cambiar"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cmabiar"
+        android:background="@drawable/boton"
+        />
+    <TextView
+        android:id="@+id/esto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Activar o Desactivar la retoalimentacion"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        />
+
+    <Button
+        android:id="@+id/Activar"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar o desactivar"
+        android:background="@drawable/boton"
+        />
+
+    <Button
+        android:id="@+id/Guardar_Conf"
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Configuraciones"
+        android:background="@drawable/boton"
+        />
+
+</RelativeLayout>

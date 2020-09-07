@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+
+        android:background="@drawable/seguridad"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:text="Descripcion: Estas preguntas son basicas para el desarrollo de Android Studio con los tipos de permisos que se necesita para manejar cierta informacion o hardwer"
+        android:layout_gravity="center"
+        />
+    <EditText
+
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:id="@+id/numero_preguntas"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el numero de preguntas"
+        android:gravity="center"
+        android:background="@drawable/edictext"
+        android:drawableLeft="@drawable/preguntas"
+        android:layout_marginBottom="20dp"
+        android:inputType="numberSigned"
+        />
+
+    <Button
+        android:id="@+id/Ingresar_Power"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:background="@drawable/boton"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>

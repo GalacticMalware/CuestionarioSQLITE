@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AndroidBasico"
+    >
+
+    <ListView
+        android:id="@+id/Preguntas4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="30dp"
+        android:divider="@android:color/transparent"
+        android:paddingBottom="7dp"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp"
+        android:paddingTop="10dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:background="#ffffff"
+        android:cacheColorHint="@android:color/transparent"
+
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_search_black_24dp"
+        app:layout_anchorGravity="right|bottom" />
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
